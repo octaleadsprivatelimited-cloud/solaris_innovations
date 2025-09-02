@@ -1,0 +1,70 @@
+{
+  "short_name": "Abhi Solar",
+  "name": "Abhi Solar - Leading Solar Panel Installation Company in Andhra Pradesh",
+  "description": "Professional solar panel installation services with PM Solar Scheme subsidies up to ₹78,000. Serving Visakhapatnam, Rajahmundry, Amalapuram, Kakinada, Tanuku, Eluru, and Bhimavaram.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1e40af",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": ["business", "energy", "environment", "home-improvement"],
+  "screenshots": [
+    {
+      "src": "screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshot-narrow.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Solar Calculator",
+      "short_name": "Calculator",
+      "description": "Calculate your solar savings and subsidy",
+      "url": "/calculator",
+      "icons": [
+        {
+          "src": "calculator-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Get Subsidy",
+      "short_name": "Subsidy",
+      "description": "Apply for ₹78,000 solar subsidy",
+      "url": "/landing",
+      "icons": [
+        {
+          "src": "subsidy-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

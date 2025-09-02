@@ -1,0 +1,37 @@
+/* TEAM */
+    Founder: Rajesh Kumar
+    Site: https://abhisolar.com
+    Location: Visakhapatnam, Andhra Pradesh, India
+
+    Technical Director: Priya Sharma
+    Site: https://abhisolar.com
+    Location: Rajahmundry, Andhra Pradesh, India
+
+    Operations Manager: Amit Patel
+    Site: https://abhisolar.com
+    Location: Kakinada, Andhra Pradesh, India
+
+/* SITE */
+    Last update: 2024/08/22
+    Language: English, Hindi, Telugu
+    Doctype: HTML5
+    IDE: Visual Studio Code
+    Standards: HTML5, CSS3, JavaScript ES6+, React 18
+    Components: Tailwind CSS, Framer Motion, Lucide React
+    Software: Create React App, Node.js, npm
+
+/* THANKS */
+    Name: Government of India
+    Description: PM Solar Scheme subsidies and renewable energy policies
+
+    Name: Andhra Pradesh Government
+    Description: State solar energy initiatives and support
+
+    Name: Solar Energy Corporation of India (SECI)
+    Description: National solar mission and guidelines
+
+/* SITE */
+    Name: Abhi Solar
+    Description: Leading solar panel installation company in Andhra Pradesh
+    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Andhra Pradesh, Visakhapatnam, Rajahmundry, Amalapuram, Kakinada, Tanuku, Eluru, Bhimavaram
+    Author: Abhi Solar Team

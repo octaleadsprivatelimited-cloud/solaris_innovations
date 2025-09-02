@@ -1,0 +1,24 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://solarisinovations.in/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow important pages
+Allow: /services
+Allow: /about
+Allow: /blog
+Allow: /news
+Allow: /gallery
+Allow: /faq
+Allow: /contact
+Allow: /solar-calculator
+
+# Crawl delay (optional)
+Crawl-delay: 1

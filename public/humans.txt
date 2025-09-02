@@ -1,0 +1,37 @@
+/* TEAM */
+    Founder: Rajesh Kumar
+    Site: https://solarisinovations.in
+    Location: Hyderabad, Telangana, India
+
+    Technical Director: Priya Sharma
+    Site: https://solarisinovations.in
+    Location: Karimnagar, Telangana, India
+
+    Operations Manager: Amit Patel
+    Site: https://solarisinovations.in
+    Location: Warangal, Telangana, India
+
+/* SITE */
+    Last update: 2024/08/22
+    Language: English, Hindi, Telugu
+    Doctype: HTML5
+    IDE: Visual Studio Code
+    Standards: HTML5, CSS3, JavaScript ES6+, React 18
+    Components: Tailwind CSS, Framer Motion, Lucide React
+    Software: Create React App, Node.js, npm
+
+/* THANKS */
+    Name: Government of India
+    Description: PM Solar Scheme subsidies and renewable energy policies
+
+    Name: Telangana Government
+    Description: State solar energy initiatives and support
+
+    Name: Solar Energy Corporation of India (SECI)
+    Description: National solar mission and guidelines
+
+/* SITE */
+    Name: Solaris Inovations
+    Description: Leading solar panel installation company in Telangana
+    Keywords: solar panels, solar installation, PM solar scheme, subsidy, renewable energy, Telangana, Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, Jagtial
+    Author: Solaris Inovations Team
