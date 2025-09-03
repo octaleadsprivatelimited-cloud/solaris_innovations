@@ -188,11 +188,11 @@ const Calculator: React.FC = () => {
                     <h3 className="text-xl font-bold mb-3">Ready to Go Solar?</h3>
                     <div className="flex flex-col sm:flex-row gap-3 justify-center">
                       <a
-                        href="tel:+919332777888"
+                        href="tel:+918019355353"
                         className="bg-white text-green-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
                       >
                         <Phone className="inline h-4 w-4 mr-2" />
-                        Call Now: +91 9332-777-888
+                        Call Now: +91 80193 55353
                       </a>
                       <a
                         href="/contact"

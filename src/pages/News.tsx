@@ -40,8 +40,8 @@ const News: React.FC = () => {
     },
     {
       id: 3,
-      title: "Solaris Inovations Wins Best Solar Company Award 2024",
-      excerpt: "We're proud to announce that Solaris Inovations has been recognized as the Best Solar Company in Telangana.",
+      title: "Solaris Innovations Wins Best Solar Company Award 2024",
+      excerpt: "We're proud to announce that Solaris Innovations has been recognized as the Best Solar Company in Telangana.",
       category: "company",
       date: "March 15, 2024",
       time: "3 days ago"

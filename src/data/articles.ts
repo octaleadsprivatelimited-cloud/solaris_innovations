@@ -49,7 +49,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Solar Companies</h2>
-      <p>Solaris Inovations leads the market in Hyderabad with:</p>
+      <p>Solaris Innovations leads the market in Hyderabad with:</p>
       <ul>
         <li>10+ years of local experience</li>
         <li>500+ successful installations</li>
@@ -82,7 +82,7 @@ export const articles: Article[] = [
       <h2>Conclusion</h2>
       <p>Hyderabad offers excellent opportunities for solar energy adoption. With abundant sunshine, government support, and local expertise, there's no better time to go solar in Hyderabad.</p>
     `,
-    author: "Solaris Inovations Team",
+    author: "Solaris Innovations Team",
     authorBio: "Leading solar energy experts in Hyderabad with over 10 years of experience and 500+ successful installations.",
     publishDate: "2024-03-20",
     readTime: "8 min read",
@@ -124,7 +124,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Solar Expertise</h2>
-      <p>Solaris Inovations serves Secunderabad with:</p>
+      <p>Solaris Innovations serves Secunderabad with:</p>
       <ul>
         <li>Local office and support team</li>
         <li>Quick installation services</li>
@@ -198,7 +198,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Solar Services</h2>
-      <p>Solaris Inovations provides:</p>
+      <p>Solaris Innovations provides:</p>
       <ul>
         <li>Free site assessment</li>
         <li>Custom solar solutions</li>
@@ -289,7 +289,7 @@ additionalLocations.forEach((location, index) => {
       </ul>
       
       <h2>Local Services</h2>
-      <p>Solaris Inovations provides comprehensive solar solutions in ${location} including installation, maintenance, and support.</p>
+      <p>Solaris Innovations provides comprehensive solar solutions in ${location} including installation, maintenance, and support.</p>
       
       <h2>Government Support</h2>
       <ul>

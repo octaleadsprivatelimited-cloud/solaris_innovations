@@ -1,11 +1,11 @@
-# Open Graph Image Specifications for Solaris Inovations
+# Open Graph Image Specifications for Solaris Innovations
 
 ## Primary OG Image
 - **Dimensions**: 1200 x 630 pixels (1.91:1 ratio)
 - **Format**: PNG or JPG
 - **File Size**: Under 1MB
 - **Content**: 
-  - Logo: Solaris Inovations with sun icon
+  - Logo: Solaris Innovations with sun icon
   - Tagline: "Leading Solar Installation in Telangana"
   - Highlight: "₹78,000 Government Subsidy Available"
   - Visual: Solar panels with blue sky background
@@ -15,7 +15,7 @@
 ### Homepage
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Company overview with solar panels
-- **Text**: "Solaris Inovations - Power Your Future with Solar Energy"
+- **Text**: "Solaris Innovations - Power Your Future with Solar Energy"
 
 ### Landing Page
 - **Dimensions**: 1200 x 630 pixels
@@ -35,12 +35,12 @@
 ### About
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Team photos with company building
-- **Text**: "About Solaris Inovations - 10+ Years of Excellence"
+- **Text**: "About Solaris Innovations - 10+ Years of Excellence"
 
 ### Contact
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Contact information with service areas map
-- **Text**: "Contact Solaris Inovations - 7 Cities Across Telangana"
+- **Text**: "Contact Solaris Innovations - 7 Cities Across Telangana"
 
 ## Social Media Platforms
 
@@ -77,7 +77,7 @@
 - **Contrast**: High contrast for accessibility
 
 ### Branding
-- **Logo**: Always include Solaris Inovations logo
+- **Logo**: Always include Solaris Innovations logo
 - **Tagline**: "Leading Solar Installation in Telangana"
 - **Contact**: +91 80193 55353
 - **Website**: solarisinovations.in

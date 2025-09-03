@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://abhisolar.com/sitemap.xml
+Sitemap: https://solarisinovations.in/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

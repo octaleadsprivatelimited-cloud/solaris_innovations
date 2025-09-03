@@ -85,7 +85,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Solaris Inovations
+            About Solaris Innovations
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -112,7 +112,7 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2014, Solaris Inovations began with a simple mission: to make solar energy 
+                Founded in 2014, Solaris Innovations began with a simple mission: to make solar energy 
                 accessible and affordable for every household and business in Telangana.
               </p>
               <p className="text-lg text-gray-600 mb-6">
@@ -327,7 +327,7 @@ const About: React.FC = () => {
             Ready to Work with Us?
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
-            Join our growing family of satisfied customers and experience the Solaris Inovations difference
+            Join our growing family of satisfied customers and experience the Solaris Innovations difference
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
             <a

@@ -314,7 +314,7 @@ const Contact: React.FC = () => {
                       <h4 className="font-semibold text-gray-900">WhatsApp</h4>
                       <p className="text-gray-600">Get instant response on WhatsApp</p>
                       <a
-                        href="https://wa.me/919332777888"
+                        href="https://wa.me/918019355353"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-yellow-600 hover:text-yellow-700 font-medium"
@@ -330,10 +330,10 @@ const Contact: React.FC = () => {
                       <h4 className="font-semibold text-gray-900">Call Us</h4>
                       <p className="text-gray-600">Speak directly with our experts</p>
                       <a
-                        href="tel:+919332777888"
+                        href="tel:+918019355353"
                         className="text-yellow-600 hover:text-yellow-700 font-medium"
                       >
-                        +91 9332-777-888
+                        +91 80193 55353
                       </a>
                     </div>
                   </div>
@@ -395,13 +395,13 @@ const Contact: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919332777888"
+              href="tel:+918019355353"
               className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-                              Call Now: +91 9332-777-888
+                              Call Now: +91 80193 55353
             </a>
             <a
-              href="https://wa.me/919332777888"
+              href="https://wa.me/918019355353"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

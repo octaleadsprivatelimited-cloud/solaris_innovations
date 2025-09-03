@@ -56,7 +56,7 @@ const Landing: React.FC = () => {
             {/* Logo and Company Name */}
             <div className="flex items-center flex-shrink-0 min-w-0">
               <Sun className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-yellow-400 mr-1 sm:mr-1.5 lg:mr-2 flex-shrink-0" />
-              <h1 className="text-sm sm:text-base lg:text-lg font-bold text-white truncate">Solaris Inovations</h1>
+              <h1 className="text-sm sm:text-base lg:text-lg font-bold text-white truncate">Solaris Innovations</h1>
             </div>
             
             {/* Contact Buttons */}
@@ -224,7 +224,7 @@ const Landing: React.FC = () => {
       <section className="py-16 bg-white/5 w-full">
         <div className="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-12">
-            Why Choose Solaris Inovations?
+            Why Choose Solaris Innovations?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -426,7 +426,7 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="bg-black/30 py-8 text-center text-gray-300 w-full">
         <div className="w-full max-w-4xl mx-auto px-3 sm:px-4 lg:px-6">
-          <p>&copy; 2024 Solaris Inovations. All rights reserved. | ISO 9001:2015 Certified</p>
+          <p>&copy; 2024 Solaris Innovations. All rights reserved. | ISO 9001:2015 Certified</p>
           <p className="mt-2">Serving Telangana: Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, Jagtial</p>
         </div>
       </footer>
@@ -452,7 +452,7 @@ const Landing: React.FC = () => {
                       <Sun className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-lg sm:text-xl font-bold text-white">Contact Solaris Inovations</h2>
+                      <h2 className="text-lg sm:text-xl font-bold text-white">Contact Solaris Innovations</h2>
                       <p className="text-yellow-200 text-xs sm:text-sm">Get ₹78,000 Subsidy</p>
                     </div>
                   </div>

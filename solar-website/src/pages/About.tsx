@@ -77,7 +77,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Abhi Solar
+            About Solaris Innovations
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -85,7 +85,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-gray-200 max-w-3xl mx-auto"
           >
-            Leading solar energy company in Andhra Pradesh, committed to providing sustainable 
+            Leading solar energy company in Telangana, committed to providing sustainable 
             energy solutions and exceptional customer service.
           </motion.p>
         </div>
@@ -104,8 +104,8 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2014, Abhi Solar began with a simple mission: to make solar energy 
-                accessible and affordable for every household and business in Andhra Pradesh.
+                Founded in 2014, Solaris Innovations began with a simple mission: to make solar energy 
+                accessible and affordable for every household and business in Telangana.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 What started as a small team of passionate engineers has grown into one of the 
@@ -124,7 +124,7 @@ const About: React.FC = () => {
             >
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-lg mb-4">
-                To accelerate the adoption of solar energy in Andhra Pradesh by providing 
+                To accelerate the adoption of solar energy in Telangana by providing 
                 affordable, reliable, and sustainable solar solutions.
               </p>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
@@ -291,7 +291,7 @@ const About: React.FC = () => {
               Service Areas
             </h2>
             <p className="text-xl text-gray-600">
-              We proudly serve these cities in Andhra Pradesh
+              We proudly serve these cities in Telangana
             </p>
           </div>
           
@@ -319,18 +319,18 @@ const About: React.FC = () => {
             Ready to Work with Us?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join our growing family of satisfied customers and experience the Abhi Solar difference
+            Join our growing family of satisfied customers and experience the Solaris Innovations difference
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919332777888"
+              href="tel:+918019355353"
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
             >
               <Phone className="mr-2 h-5 w-5" />
-                              Call Now: +91 9332-777-888
+                              Call Now: +91 80193 55353
             </a>
             <a
-              href="https://wa.me/919332777888"
+              href="https://wa.me/918019355353"
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white hover:bg-white hover:text-gray-900 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

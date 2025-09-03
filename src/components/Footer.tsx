@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
                 <Sun className="h-6 w-6 text-yellow-500" />
-                <span className="text-lg lg:text-xl font-bold">Solaris Inovations</span>
+                <span className="text-lg lg:text-xl font-bold">Solaris Innovations</span>
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
                 Leading solar energy solutions provider in Telangana - serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, and surrounding areas. 
@@ -97,7 +97,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">
-                © 2024 Solaris Inovations. All rights reserved.
+                © 2024 Solaris Innovations. All rights reserved.
               </p>
               {/* Mobile-only OctaLeads credit */}
               <p className="text-xs text-gray-500 mt-2 md:hidden">

@@ -79,7 +79,7 @@
 ### Branding
 - **Logo**: Always include Abhi Solar logo
 - **Tagline**: "Leading Solar Installation in Andhra Pradesh"
-- **Contact**: +91 9332-777-888
+- **Contact**: +91 80193 55353
 - **Website**: abhisolar.com
 
 ## File Naming Convention

@@ -1,12 +1,12 @@
-# Open Graph Image Specifications for Abhi Solar
+# Open Graph Image Specifications for Solaris Innovations
 
 ## Primary OG Image
 - **Dimensions**: 1200 x 630 pixels (1.91:1 ratio)
 - **Format**: PNG or JPG
 - **File Size**: Under 1MB
 - **Content**: 
-  - Logo: Abhi Solar with sun icon
-  - Tagline: "Leading Solar Installation in Andhra Pradesh"
+  - Logo: Solaris Innovations with sun icon
+  - Tagline: "Leading Solar Installation in Telangana"
   - Highlight: "₹78,000 Government Subsidy Available"
   - Visual: Solar panels with blue sky background
 
@@ -15,7 +15,7 @@
 ### Homepage
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Company overview with solar panels
-- **Text**: "Abhi Solar - Power Your Future with Solar Energy"
+- **Text**: "Solaris Innovations - Power Your Future with Solar Energy"
 
 ### Landing Page
 - **Dimensions**: 1200 x 630 pixels
@@ -35,12 +35,12 @@
 ### About
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Team photos with company building
-- **Text**: "About Abhi Solar - 10+ Years of Excellence"
+- **Text**: "About Solaris Innovations - 10+ Years of Excellence"
 
 ### Contact
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Contact information with service areas map
-- **Text**: "Contact Abhi Solar - 7 Cities Across Andhra Pradesh"
+- **Text**: "Contact Solaris Innovations - 7 Cities Across Telangana"
 
 ## Social Media Platforms
 
@@ -77,9 +77,9 @@
 - **Contrast**: High contrast for accessibility
 
 ### Branding
-- **Logo**: Always include Abhi Solar logo
-- **Tagline**: "Leading Solar Installation in Andhra Pradesh"
-- **Contact**: +91 9332-777-888
+- **Logo**: Always include Solaris Innovations logo
+- **Tagline**: "Leading Solar Installation in Telangana"
+- **Contact**: +91 80193 55353
 - **Website**: abhisolar.com
 
 ## File Naming Convention

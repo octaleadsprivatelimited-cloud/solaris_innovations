@@ -1,4 +1,4 @@
-# Solaris Inovations - Solar Panel Installation Website
+# Solaris Innovations - Solar Panel Installation Website
 
 A professional, responsive website for a solar panel installation company operating in Telangana, India.
 
@@ -102,7 +102,7 @@ Update the following files to customize content:
 - Company information: `src/components/Footer.tsx`
 - Contact details: `src/pages/Contact.tsx`
 - Service areas: Update city arrays in multiple components
-- Phone number: Search and replace `+919332777888` throughout
+- Phone number: Search and replace `+918019355353` throughout
 
 ## 📊 SEO Features
 
@@ -144,7 +144,7 @@ The build folder will contain all production-ready files.
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Solaris Inovations
+REACT_APP_COMPANY_NAME=Solaris Innovations
 REACT_APP_PHONE_NUMBER=+918019355353
 REACT_APP_EMAIL=info@solarisinovations.in
 ```
@@ -195,4 +195,4 @@ For support and questions:
 
 ---
 
-**Solaris Inovations** - Powering the future with solar energy! ☀️
+**Solaris Innovations** - Powering the future with solar energy! ☀️

@@ -89,7 +89,7 @@ const Home: React.FC = () => {
               </div>
               
               <p className="text-xl text-gray-200 mb-8">
-                Leading solar panel installation company in Andhra Pradesh. 
+                Leading solar panel installation company in Telangana. 
                 Save money, save the environment, and enjoy reliable clean energy.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -131,7 +131,7 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Why Choose Abhi Solar?
+              Why Choose Solaris Innovations?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We provide comprehensive solar solutions with unmatched quality and service
@@ -188,10 +188,10 @@ const Home: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919332777888"
+              href="tel:+918019355353"
               className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              Call Now: +91 9332-777-888
+              Call Now: +91 80193 55353
             </a>
             <Link
               to="/contact"

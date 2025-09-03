@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center mb-4">
               <Sun className="h-8 w-8 text-yellow-500 mr-2" />
-              <h3 className="text-2xl font-bold">Abhi Solar</h3>
+              <h3 className="text-2xl font-bold">Solaris Innovations</h3>
             </div>
             <p className="text-gray-300 mb-4">
-              Leading solar panel installation company serving Andhra Pradesh with premium quality 
+              Leading solar panel installation company serving Telangana with premium quality 
               solar solutions. We specialize in residential, commercial, and industrial solar installations.
             </p>
             <div className="flex space-x-4">
@@ -69,20 +69,20 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-yellow-500 mr-2" />
-                <a href="tel:+919332777888" className="text-gray-300 hover:text-yellow-500 transition-colors">
-                  +91 9332-777-888
+                <a href="tel:+918019355353" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  +91 80193 55353
                 </a>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-yellow-500 mr-2" />
-                <a href="mailto:info@abhisolar.com" className="text-gray-300 hover:text-yellow-500 transition-colors">
-                  info@abhisolar.com
+                <a href="mailto:info@solarisinovations.in" className="text-gray-300 hover:text-yellow-500 transition-colors">
+                  info@solarisinovations.in
                 </a>
               </div>
               <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-yellow-500 mr-2 mt-1" />
                 <div className="text-gray-300">
-                  <p>Visakhapatnam, Andhra Pradesh</p>
+                  <p>Visakhapatnam, Telangana</p>
                   <p>India</p>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p className="text-gray-400">
-            © {currentYear} Abhi Solar. All rights reserved. | 
+            © {currentYear} Solaris Innovations. All rights reserved. | 
             <span className="ml-2">ISO 9001:2015 Certified</span>
           </p>
           <p className="text-gray-500 text-sm mt-2">

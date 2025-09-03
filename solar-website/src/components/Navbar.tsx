@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Sun className="h-8 w-8 text-yellow-500 mr-2" />
             <Link to="/" className="text-2xl font-bold text-gray-800">
-              Abhi Solar
+              Solaris Innovations
             </Link>
           </div>
 
@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
               🔥 Get ₹78K Subsidy
             </Link>
             <a
-              href="tel:+919332777888"
+              href="tel:+918019355353"
               className="bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
             >
               Call Now
@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
                 🔥 ₹78K
               </Link>
               <a
-                href="tel:+919332777888"
+                href="tel:+918019355353"
                 className="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-2 rounded-md text-xs font-medium transition-colors"
               >
                 Call
@@ -119,7 +119,7 @@ const Navbar: React.FC = () => {
               🔥 Get ₹78K Subsidy
             </Link>
             <a
-              href="tel:+919332777888"
+              href="tel:+918019355353"
               className="block bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-2 rounded-md text-base font-medium"
               onClick={() => setIsOpen(false)}
             >

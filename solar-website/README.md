@@ -1,4 +1,4 @@
-# Abhi Solar - Solar Panel Installation Website
+# Solaris Innovations - Solar Panel Installation Website
 
 A professional, responsive website for a solar panel installation company operating in Andhra Pradesh, India.
 
@@ -94,7 +94,7 @@ Update the following files to customize content:
 - Company information: `src/components/Footer.tsx`
 - Contact details: `src/pages/Contact.tsx`
 - Service areas: Update city arrays in multiple components
-- Phone number: Search and replace `+919332777888` throughout
+- Phone number: Search and replace `+918019355353` throughout
 
 ## 📊 SEO Features
 
@@ -131,8 +131,8 @@ Update the following files to customize content:
 
 ## 📞 Contact Information
 
-- **Phone**: +91 9332-777-888
-- **Email**: info@abhisolar.com
+- **Phone**: +91 80193 55353
+- **Email**: info@solarisinovations.in
 - **Service Areas**: Kakinada, Visakhapatnam, Rajahmundry
 
 ## 🔧 Configuration
@@ -140,9 +140,9 @@ Update the following files to customize content:
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Abhi Solar
-REACT_APP_PHONE_NUMBER=+919332777888
-REACT_APP_EMAIL=info@abhisolar.com
+REACT_APP_COMPANY_NAME=Solaris Innovations
+REACT_APP_PHONE_NUMBER=+918019355353
+REACT_APP_EMAIL=info@solarisinovations.in
 ```
 
 ### Tailwind Configuration
@@ -188,9 +188,9 @@ This project is licensed under the MIT License.
 
 For support and questions:
 
-- Phone: +91 9332-777-888
-- WhatsApp: +91 9332-777-888
+- Phone: +91 80193 55353
+- WhatsApp: +91 80193 55353
 
 ---
 
-**Abhi Solar** - Powering the future with solar energy! ☀️
+**Solaris Innovations** - Powering the future with solar energy! ☀️
