@@ -10,35 +10,29 @@ import {
   BookOpen,
   TrendingUp,
   Lightbulb,
-  Globe,
-  MapPin
+  Globe
 } from 'lucide-react';
 import { articles } from '../data/articles'; // Updated imports
 
 const Blog: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [selectedLocation, setSelectedLocation] = useState('all');
+
 
   const categories = [
     { id: 'all', name: 'All Articles', icon: <BookOpen className="h-4 w-4" /> },
-    { id: 'location-guide', name: 'Location Guides', icon: <MapPin className="h-4 w-4" /> },
+    { id: 'location-guide', name: 'Location Guides', icon: <Globe className="h-4 w-4" /> },
     { id: 'solar-tips', name: 'Solar Tips', icon: <Lightbulb className="h-4 w-4" /> },
     { id: 'industry-news', name: 'Industry News', icon: <TrendingUp className="h-4 w-4" /> },
     { id: 'technology', name: 'Technology', icon: <Globe className="h-4 w-4" /> }
   ];
 
-  // Get unique locations from articles
-  const locations = Array.from(new Set(articles.map(article => article.location))).sort();
+
 
   const getFilteredPosts = () => {
     let filtered = articles;
     
     if (selectedCategory !== 'all') {
       filtered = filtered.filter(post => post.category === selectedCategory);
-    }
-    
-    if (selectedLocation !== 'all') {
-      filtered = filtered.filter(post => post.location === selectedLocation);
     }
     
     return filtered;
@@ -102,35 +96,7 @@ const Blog: React.FC = () => {
             </div>
           </div>
 
-          {/* Location Filters */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-3 text-center">Filter by Location</h3>
-            <div className="flex flex-wrap items-center justify-center gap-4">
-              <button
-                onClick={() => setSelectedLocation('all')}
-                className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
-                  selectedLocation === 'all'
-                    ? 'bg-yellow-500 text-gray-900 shadow-lg'
-                    : 'bg-white text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 border border-gray-200'
-                }`}
-              >
-                All Locations
-              </button>
-              {locations.map((location) => (
-                <button
-                  key={location}
-                  onClick={() => setSelectedLocation(location)}
-                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
-                    selectedLocation === location
-                      ? 'bg-yellow-500 text-gray-900 shadow-lg'
-                      : 'bg-white text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 border border-gray-200'
-                  }`}
-                >
-                  {location}
-                </button>
-              ))}
-            </div>
-          </div>
+
         </div>
       </section>
 
@@ -229,11 +195,10 @@ const Blog: React.FC = () => {
             <p className="text-xl text-gray-600">
               Stay informed with our expert solar energy content
             </p>
-            {selectedCategory !== 'all' || selectedLocation !== 'all' ? (
+            {selectedCategory !== 'all' ? (
               <p className="text-sm text-gray-500 mt-2">
                 Showing {filteredPosts.length} articles
                 {selectedCategory !== 'all' && ` in ${selectedCategory.replace('-', ' ')}`}
-                {selectedLocation !== 'all' && ` for ${selectedLocation}`}
               </p>
             ) : null}
           </div>

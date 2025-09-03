@@ -6,10 +6,8 @@ import {
   X,
   ChevronDown,
   Sun,
-  Image,
   HelpCircle,
   BookOpen,
-  Newspaper,
   Gift
 } from 'lucide-react';
 import { openWhatsAppQuote } from '../utils/whatsapp';
@@ -71,14 +69,7 @@ const Navbar: React.FC = () => {
                   exit={{ opacity: 0, y: -10 }}
                   className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50"
                 >
-                  <Link
-                    to="/gallery"
-                    className="flex items-center space-x-3 px-4 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 transition-colors"
-                    onClick={() => setIsDropdownOpen(false)}
-                  >
-                    <Image className="h-4 w-4" />
-                    <span>Gallery</span>
-                  </Link>
+
                   <Link
                     to="/faq"
                     className="flex items-center space-x-3 px-4 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 transition-colors"
@@ -95,14 +86,7 @@ const Navbar: React.FC = () => {
                     <BookOpen className="h-4 w-4" />
                     <span>Blog</span>
                   </Link>
-                  <Link
-                    to="/news"
-                    className="flex items-center space-x-3 px-4 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 transition-colors"
-                    onClick={() => setIsDropdownOpen(false)}
-                  >
-                    <Newspaper className="h-4 w-4" />
-                    <span>News</span>
-                  </Link>
+
                 </motion.div>
               )}
             </div>
@@ -153,10 +137,10 @@ const Navbar: React.FC = () => {
             <Link to="/" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Home</Link>
             <Link to="/services" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Services</Link>
             <Link to="/about" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>About</Link>
-            <Link to="/gallery" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Gallery</Link>
+
             <Link to="/faq" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>FAQ</Link>
             <Link to="/blog" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Blog</Link>
-            <Link to="/news" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>News</Link>
+
             <Link to="/solar-calculator" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Calculator</Link>
             <Link to="/contact" className="block px-3 py-2 text-gray-600 hover:bg-yellow-50 hover:text-yellow-600 rounded-md transition-colors" onClick={() => setIsOpen(false)}>Contact</Link>
 
