@@ -111,13 +111,13 @@ const Landing: React.FC = () => {
               </div>
               
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
-                Get <span className="text-yellow-400">₹78,000</span> 
+                Install Solar Panels with
                 <br className="sm:hidden" />
-                <span className="hidden sm:inline"> </span>Solar Subsidy
+                <span className="hidden sm:inline"> </span><span className="text-yellow-400">Government Subsidy</span>
               </h1>
               
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200">
-                Install solar panels with <strong>40% government subsidy</strong> and 
+                Save money and the planet —
                 <br className="hidden md:block" />
                 reduce your electricity bill by up to <strong>90%</strong>
               </p>
@@ -329,21 +329,33 @@ const Landing: React.FC = () => {
               <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 mb-8">
                 <h3 className="text-2xl font-bold mb-4">Government Subsidy Details</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-400 mr-3" />
-                    <span>40% subsidy on system cost</span>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <div className="font-semibold">Subsidy on System Cost –</div>
+                      <div className="text-sm text-gray-300">Financial support directly reduces your upfront investment.</div>
+                    </div>
                   </div>
-                  <div className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-400 mr-3" />
-                    <span>Maximum ₹78,000 subsidy amount</span>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <div className="font-semibold">Maximum Subsidy Amount –</div>
+                      <div className="text-sm text-gray-300">Up to ₹78,000 available.</div>
+                    </div>
                   </div>
-                  <div className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-400 mr-3" />
-                    <span>Eligible for 1-3kW systems</span>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <div className="font-semibold">Eligibility –</div>
+                      <div className="text-sm text-gray-300">Applies to 1 kW to 3 kW rooftop solar systems.</div>
+                    </div>
                   </div>
-                  <div className="flex items-center">
-                    <CheckCircle className="h-5 w-5 text-green-400 mr-3" />
-                    <span>Direct bank transfer</span>
+                  <div className="flex items-start">
+                    <CheckCircle className="h-5 w-5 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                    <div>
+                      <div className="font-semibold">Disbursement –</div>
+                      <div className="text-sm text-gray-300">Subsidy credited via Direct Bank Transfer (DBT) to the beneficiary.</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -426,8 +438,8 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="bg-black/30 py-8 text-center text-gray-300 w-full">
         <div className="w-full max-w-4xl mx-auto px-3 sm:px-4 lg:px-6">
-          <p>&copy; 2024 Solaris Innovations. All rights reserved. | ISO 9001:2015 Certified</p>
-          <p className="mt-2">Serving Telangana: Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, Jagtial</p>
+          <p>&copy; 2024 Solaris Innovations. All rights reserved.</p>
+          <p className="mt-2">| ISO 9001:2015 Certified Serving All Over India – delivering reliable solar solutions nationwide.</p>
         </div>
       </footer>
 

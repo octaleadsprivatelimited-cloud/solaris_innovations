@@ -21,19 +21,19 @@ const About: React.FC = () => {
   const values = [
     {
       title: "Quality First",
-      description: "We never compromise on quality, using only premium components and materials"
+      description: "We uphold the highest standards, using only premium components and materials to ensure long-lasting performance."
     },
     {
       title: "Customer Satisfaction",
-      description: "Your satisfaction is our priority, with 24/7 support and maintenance"
+      description: "Your satisfaction is our priority — we provide dedicated support, reliable service, and timely maintenance."
     },
     {
       title: "Innovation",
-      description: "Constantly adopting latest solar technologies and best practices"
+      description: "We continuously embrace the latest solar technologies and industry best practices to deliver smarter energy solutions."
     },
     {
       title: "Sustainability",
-      description: "Committed to building a greener future for generations to come"
+      description: "We are committed to building a cleaner, greener future for generations to come."
     }
   ];
 
@@ -112,16 +112,16 @@ const About: React.FC = () => {
                 Our Story
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2014, Solaris Innovations began with a simple mission: to make solar energy 
-                accessible and affordable for every household and business in Telangana.
+                Founded in 2011, Solaris Innovations began with a clear mission: to make solar energy 
+                accessible and affordable for households and businesses across India.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                What started as a small team of passionate engineers has grown into one of the 
-                region's most trusted solar installation companies, serving over 500 satisfied customers.
+                What began as a small team of passionate engineers has grown into one of the nation's 
+                most trusted solar installation companies, proudly serving over 1,000 satisfied customers.
               </p>
               <p className="text-lg text-gray-600">
-                Today, we continue to innovate and expand our services, always maintaining our 
-                commitment to quality, customer satisfaction, and environmental responsibility.
+                Today, we continue to innovate and expand our services while upholding our core 
+                commitment to quality, customer satisfaction, and environmental sustainability.
               </p>
             </motion.div>
             <motion.div
@@ -132,13 +132,11 @@ const About: React.FC = () => {
             >
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-lg mb-4">
-                To accelerate the adoption of solar energy in Telangana by providing 
-                affordable, reliable, and sustainable solar solutions.
+                To accelerate the adoption of solar energy across India by delivering affordable, reliable, and sustainable solar solutions.
               </p>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-lg">
-                To become the leading solar energy company in South India, driving the 
-                transition to clean, renewable energy.
+                To become a leading solar energy company in India, driving the nation's transition to clean and renewable energy.
               </p>
             </motion.div>
           </div>

@@ -41,9 +41,9 @@ const Home: React.FC = () => {
 
   const stats = [
     { number: "500+", label: "Installations", icon: <CheckCircle className="h-6 w-6" /> },
-    { number: "50+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
-    { number: "10+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
-    { number: "7", label: "Cities Served", icon: <Globe className="h-6 w-6" /> }
+    { number: "150+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
+    { number: "18+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
+    { number: "20+", label: "Cities Served", icon: <Globe className="h-6 w-6" /> }
   ];
 
   return (
@@ -100,8 +100,7 @@ const Home: React.FC = () => {
               </div>
               
               <p className="text-xl text-gray-200 mb-8">
-                Leading solar panel installation company in Telangana - serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, and Jagtial. 
-                Save money, save the environment, and enjoy reliable clean energy with rooftop solar panels, solar power systems, and solar energy solutions.
+                A leading solar panel installation company from Telangana, our expertise and trusted services now reach customers all over India. Save money, save the environment, and enjoy reliable clean energy with our comprehensive rooftop solar panels and advanced energy solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button
@@ -318,8 +317,7 @@ const Home: React.FC = () => {
             Ready to Go Solar?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers in Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar, Adilabad, Nalgonda, Medak, Rangareddy, Suryapet, Miryalaguda, Siddipet, and Jagtial who have already switched to solar energy. 
-            Get your free solar consultation today for rooftop solar panels, solar power systems, and solar energy solutions!
+            We are proud to serve customers across India who have embraced the benefits of solar energy. Join the growing community that has already transitioned to sustainable power. Contact us today for a complimentary solar consultation on rooftop solar panels, integrated solar power systems, and customized solar energy solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
