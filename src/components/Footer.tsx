@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
                   <MapPin className="h-4 w-4 text-yellow-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-gray-300">Hyderabad, T.G, India</p>
-                    <p className="text-gray-400 text-xs">Serving Telangana</p>
+                    <p className="text-gray-400 text-xs">Serving customers across Telangana and all over India.</p>
                   </div>
                 </div>
               </div>
