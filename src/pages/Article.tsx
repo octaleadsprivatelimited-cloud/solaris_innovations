@@ -90,19 +90,7 @@ const ArticlePage: React.FC = () => {
         <meta name="keywords" content={article.seoKeywords.join(', ')} />
         <meta name="author" content={article.author} />
         
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content={article.title} />
-        <meta property="og:description" content={article.excerpt} />
-        <meta property="og:image" content={`https://solarisinovations.in${article.image}`} />
-        <meta property="og:url" content={`https://solarisinovations.in/blog/${article.slug}`} />
-        <meta property="og:site_name" content="Solaris Inovations" />
-        
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={article.title} />
-        <meta name="twitter:description" content={article.excerpt} />
-        <meta name="twitter:image" content={`https://solarisinovations.in${article.image}`} />
+        {/* Social meta removed */}
         
         {/* Additional SEO */}
         <meta name="robots" content="index, follow" />
