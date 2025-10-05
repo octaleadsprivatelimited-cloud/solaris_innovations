@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Sun, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Sun } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -19,11 +19,7 @@ const Footer: React.FC = () => {
               Leading solar panel installation company serving Telangana with premium quality 
               solar solutions. We specialize in residential, commercial, and industrial solar installations.
             </p>
-            <div className="flex space-x-4">
-              <button className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Instagram">
-                <Instagram className="h-5 w-5" />
-              </button>
-            </div>
+            <div className="flex space-x-4" />
           </div>
 
           {/* Quick Links */}

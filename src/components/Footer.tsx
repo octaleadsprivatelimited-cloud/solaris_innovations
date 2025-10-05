@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Sun, Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Sun, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -19,20 +19,7 @@ const Footer: React.FC = () => {
                 Leading solar energy solutions provider in Telangana - serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, and surrounding areas. 
                 Professional solar panel installation with government subsidy assistance and PM solar scheme benefits.
               </p>
-              <div className="flex space-x-4">
-                <a href="https://facebook.com" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Facebook">
-                  <Facebook className="h-5 w-5" />
-                </a>
-                <a href="https://twitter.com" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Twitter">
-                  <Twitter className="h-5 w-5" />
-                </a>
-                <a href="https://www.instagram.com/abhi_solar/" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="Instagram">
-                  <Instagram className="h-5 w-5" />
-                </a>
-                <a href="https://linkedin.com" className="text-gray-400 hover:text-yellow-500 transition-colors" aria-label="LinkedIn">
-                  <Linkedin className="h-5 w-5" />
-                </a>
-              </div>
+              <div className="flex space-x-4" />
             </div>
 
             {/* Quick Links and Services - Side by side on mobile */}
