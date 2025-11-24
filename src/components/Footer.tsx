@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">
-                © 2024 Solaris Innovations. All rights reserved. | Developed by{' '}
+                © 2025 Solaris Innovations. All rights reserved. | Developed by{' '}
                 <a 
                   href="https://www.octaleads.com/" 
                   target="_blank" 

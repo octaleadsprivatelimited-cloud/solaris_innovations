@@ -375,7 +375,7 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="bg-black/30 py-8 text-center text-gray-300">
         <div className="max-w-4xl mx-auto px-4">
-          <p>&copy; 2024 Solaris Innovations. All rights reserved. | ISO 9001:2015 Certified</p>
+          <p>&copy; 2025 Solaris Innovations. All rights reserved. | ISO 9001:2015 Certified</p>
           <p className="mt-2">Serving Telangana: Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, Ramagundam, Mahabubnagar</p>
         </div>
       </footer>
