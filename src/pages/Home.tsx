@@ -42,7 +42,7 @@ const Home: React.FC = () => {
   const stats = [
     { number: "500+", label: "Installations", icon: <CheckCircle className="h-6 w-6" /> },
     { number: "150+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
-    { number: "18+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
+    { number: "14+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
     { number: "20+", label: "Cities Served", icon: <Globe className="h-6 w-6" /> }
   ];
 
@@ -268,7 +268,7 @@ const Home: React.FC = () => {
               Why Choose Solaris Innovations?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive solar solutions with unmatched quality and service - from Hyderabad solar installation to Karimnagar solar maintenance, Warangal solar repair, and Nizamabad solar consultation across Telangana
+              At Solaris Innovations, we combine advanced solar technology with expert engineering to deliver reliable, high-performance energy solutions. Our team ensures precision in every step—design, installation, and maintenance—providing you with long-term value, reduced energy costs, and complete peace of mind.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

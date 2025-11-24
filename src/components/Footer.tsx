@@ -16,8 +16,8 @@ const Footer: React.FC = () => {
                 <span className="text-lg lg:text-xl font-bold">Solaris Innovations</span>
               </div>
               <p className="text-sm text-gray-300 leading-relaxed">
-                Leading solar energy solutions provider in Telangana - serving Hyderabad, Karimnagar, Warangal, Nizamabad, Khammam, and surrounding areas. 
-                Professional solar panel installation with government subsidy assistance and PM solar scheme benefits.
+                Leading solar energy solutions provider in India – delivering reliable rooftop and ground-mounted solar systems across all states and regions. 
+                We offer professional solar panel installation, complete project support, assistance with government subsidy programs, and guidance on PM solar scheme benefits.
               </p>
               <div className="flex space-x-4" />
             </div>

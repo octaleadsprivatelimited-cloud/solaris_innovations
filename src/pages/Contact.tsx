@@ -61,7 +61,7 @@ const Contact: React.FC = () => {
     {
       icon: <MapPin className="h-8 w-8 text-yellow-500" />,
       title: "Service Areas",
-      details: ["Hyderabad", "Karimnagar", "Warangal", "Nizamabad", "Khammam"],
+      details: ["We proudly deliver our solar solutions across India."],
       action: "#"
     },
     {

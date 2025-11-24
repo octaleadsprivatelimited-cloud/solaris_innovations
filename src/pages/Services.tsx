@@ -101,8 +101,9 @@ const Services: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Comprehensive solar solutions for residential, commercial, and industrial needs across Andhra Pradesh. 
-            Expert solar panel installation with premium quality components in Visakhapatnam, Vijayawada, Guntur, Kakinada, Rajahmundry, Tirupati, and Anantapur.
+            We deliver comprehensive solar solutions for residential, commercial, and industrial projects across India. 
+            Backed by our Head Office in Hyderabad, Telangana, we provide cutting-edge technology, efficient installation, and long-term support. 
+            Our focus is on delivering reliable, sustainable, and cost-effective energy solutions tailored to meet every customer's needs.
           </motion.p>
         </div>
       </section>
@@ -115,7 +116,7 @@ const Services: React.FC = () => {
               Solar Installation Services
             </h2>
             <p className="text-xl text-gray-600">
-              Choose the perfect solar solution for your energy needs - from Visakhapatnam solar panels to Vijayawada solar systems, Guntur rooftop solar, and Kakinada solar power solutions
+              We provide end-to-end solar installation solutions designed for residential, commercial, and industrial needs. Our expert team handles everything—from site assessment and system design to installation and commissioning—ensuring long-lasting performance and maximum energy savings.
             </p>
           </div>
           
