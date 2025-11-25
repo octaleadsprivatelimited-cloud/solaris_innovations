@@ -38,9 +38,9 @@ const Home: React.FC = () => {
 
   const stats = [
     { number: "500+", label: "Installations", icon: <CheckCircle className="h-6 w-6" /> },
-    { number: "50+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
-    { number: "10+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
-    { number: "7", label: "Cities Served", icon: <Globe className="h-6 w-6" /> }
+    { number: "150+", label: "Team Members", icon: <Users className="h-6 w-6" /> },
+    { number: "14+", label: "Years Experience", icon: <TrendingUp className="h-6 w-6" /> },
+    { number: "20+", label: "Cities Served", icon: <Globe className="h-6 w-6" /> }
   ];
 
   return (

@@ -13,9 +13,9 @@ import {
 const About: React.FC = () => {
   const achievements = [
     { number: "500+", label: "Successful Installations", icon: <CheckCircle className="h-8 w-8" /> },
-    { number: "50+", label: "Expert Team Members", icon: <Users className="h-8 w-8" /> },
-    { number: "10+", label: "Years of Experience", icon: <Award className="h-8 w-8" /> },
-    { number: "7", label: "Cities Served", icon: <Globe className="h-8 w-8" /> }
+    { number: "150+", label: "Expert Team Members", icon: <Users className="h-8 w-8" /> },
+    { number: "14+", label: "Years of Experience", icon: <Award className="h-8 w-8" /> },
+    { number: "20+", label: "Cities Served", icon: <Globe className="h-8 w-8" /> }
   ];
 
   const values = [
@@ -34,27 +34,6 @@ const About: React.FC = () => {
     {
       title: "Sustainability",
       description: "Committed to building a greener future for generations to come"
-    }
-  ];
-
-  const team = [
-    {
-      name: "Rajesh Kumar",
-      position: "CEO & Founder",
-      experience: "15+ years in renewable energy",
-      expertise: "Solar system design & business development"
-    },
-    {
-      name: "Priya Sharma",
-      position: "Technical Director",
-      experience: "12+ years in solar engineering",
-      expertise: "System optimization & quality control"
-    },
-    {
-      name: "Amit Patel",
-      position: "Operations Manager",
-      experience: "10+ years in project management",
-      expertise: "Installation & customer service"
     }
   ];
 
@@ -204,50 +183,6 @@ const About: React.FC = () => {
                     {value.description}
                   </p>
                 </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Our Leadership Team
-            </h2>
-            <p className="text-xl text-gray-600">
-              Experienced professionals dedicated to your solar success
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white p-6 rounded-lg shadow-lg text-center"
-              >
-                <div className="w-24 h-24 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </span>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  {member.name}
-                </h3>
-                <p className="text-yellow-600 font-medium mb-3">
-                  {member.position}
-                </p>
-                <p className="text-gray-600 mb-2">
-                  <strong>Experience:</strong> {member.experience}
-                </p>
-                <p className="text-gray-600">
-                  <strong>Expertise:</strong> {member.expertise}
-                </p>
               </motion.div>
             ))}
           </div>
